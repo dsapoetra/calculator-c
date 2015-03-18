@@ -16,11 +16,16 @@ class StackOfExpression {
     
     //getter
     Expresi getEkspresi(int i); //mengembalikan ekspresi berdasar indeksnya dalam stack
+
+    //push & pop
+    void push(Expression val);
+    string pop();
     
 
   private :
     //Array of expression dalam string
     Expresi* Expression;
+    Expresi *TopExpression
 
 }
 
