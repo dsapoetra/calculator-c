@@ -16,14 +16,14 @@ class Expresi {
     //Prosesor
     void InfixProsesor();
     void PostfixProsesor();
-    void PrefixProsesir(); //terlalu besar jika dibuat kelas sendiri.
+    void PrefixProsesor(); //terlalu besar jika dibuat kelas sendiri.
 
     //converter
     String ConvertBilangan();
 
 
   private :
-  String Expresi;
+  String Expression;
 
 }
 
