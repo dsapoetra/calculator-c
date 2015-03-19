@@ -10,15 +10,16 @@ class Expresi {
     ~Expresi();
 
     //getter setter
-    GetExpresi();
-    SetExpresi(String E);
+   String GetExpresi();
+    void SetExpresi(String E);
     
     //Prosesor
-    InfixProsesor();
-    PostfixProsesor();
-    PrefixProsesir(); //terlalu besar jika dibuat kelas sendiri.
+    void InfixProsesor();
+    void PostfixProsesor();
+    void PrefixProsesir(); //terlalu besar jika dibuat kelas sendiri.
 
-    //
+    //converter
+    String ConvertBilangan();
 
 
   private :
